@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.header .logo{
+    width: 15%;
+    height: 100%;
+}
+
+
+.header .logo img{
+    height: 107px;
+    width: auto;
+    position: absolute;
+    bottom: -65px;
+    cursor: pointer;
+}
+
+.header ul{
+    width: 28%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul li {
+    color: #282828;
+    letter-spacing: .5px;
+    line-height: 23px;
+    font-weight: 500;
+    font-size: 16px;
+    list-style-type: none;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+
+.header ul li:hover{
+    color: #e9003f;
+}
+
+.header ul li::after{
+    content: "*";
+    line-height: 1em;
+    color: #e9003f;
+    position: absolute;
+    top: 6px;
+    right: -22px;
+    font-size: 16px;
+}
+
+.header .quick{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header .quick img{
+    cursor: pointer;
+}
+
+
+.header .quick button{
+    padding: 11px 17px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #e9003f;
+    border: 2px solid transparent;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    transition: all .2s ease-out;
+}
+
+.header .quick button:hover{
+    background-color: #282828;
+}
+
+/* section-1 */
+
+.hero{
+    width: 100%;
+    height: 94vh;
+    background-image: url(/img/h8-slide-3-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .fresh{
+    height: 60%;
+    width: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fresh .always{
+    width: auto;
+    height: 175px;
+}
+
+.img1{
+    position: absolute;
+    top: 30px;
+    left: -130px;
+    width: 81px;
+    height: 129px;
+}
+
+.img2{
+    position: absolute;
+    top: 90px;
+    left: 600px;
+    width: 73px;
+    height: 42px;
+}
+
+.img3{
+    position: absolute;
+    width: 188px;
+    height: 70px;
+    bottom: 80px;
+    left: -130px;
+}
+
+.img4{
+    position: absolute;
+    width: 324px;
+    height: 109px;
+    bottom: 60px;
+    right: -130px;
+}
